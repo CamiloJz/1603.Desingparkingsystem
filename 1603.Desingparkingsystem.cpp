@@ -15,7 +15,7 @@ public:
 
     // Método para intentar agregar un coche al estacionamiento.
     // Cada condicional siguiente revisa si un auto es de el tamaño especificado y si hay espacio disponible
-    //Si lo hago reduce el numero de espacios e indica si puede estacionar o no
+    //Si lo hago reduce el numero de espacios e indica si puede estacionar o no.
     bool addCar(int carType) {
         if (carType == 1 && big > 0) { 
             big--; 
